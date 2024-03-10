@@ -21,9 +21,11 @@
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="stylesheet" href="demos/restaurant/restaurant.css" />
+        <link rel="stylesheet" href="demos/interactive-portfolio/interactive-portfolio.css" />
+        <link rel="stylesheet" href="demos/travel-agency/travel-agency.css" />
         
     </head>
-    <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#383632" class="custom-cursor"> 
+    <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#383632" class="custom-cursor custom-scroll"> 
         <!-- start cursor -->
         <div class="cursor-page-inner">
             <div class="circle-cursor circle-cursor-inner"></div>
@@ -33,7 +35,7 @@
         <!-- start header -->
         <header> 
             <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg header-transparent bg-transparent header-reverse" data-header-hover="light">
+            <nav class="navbar navbar-expand-lg  mini-header header-transparent bg-transparent header-reverse" data-header-hover="light">
                 <div class="container-fluid">
                     <div class="col-auto col-lg-2 me-lg-0 me-auto">
                         <a class="navbar-brand" href="index.html">
@@ -80,14 +82,14 @@
         </header>
         <!-- end header --> 
         <!-- start banner -->
-        <section class="p-0 full-screen md-h-700px bg-dark-gray sm-h-600px ipad-top-space-margin cover-background position-relative" data-parallax-background-ratio="0.8" style="background-image: url(images/background/vegan-cashew-milk-glass-with-cashews-nuts-dark-background1.jpg)">
-        <div class="opacity-light bg-dark-gray"></div>
+        <section class="p-0 full-screen md-h-700px bg-dark-gray sm-h-600px ipad-top-space-margin cover-background position-relative" data-parallax-background-ratio="0.8" style="background-image: url('images/landing-page.webp')">
+            <div class="opacity-light bg-dark-gray"></div>
             <div class="container h-100">
                 <div class="row align-items-center h-100 justify-content-center">
                     <div class="col-12 position-relative text-center">  
                         <div class="background-repeat bg-base-color border-radius-100 w-700px h-700px lg-w-550px lg-h-550px sm-w-450px sm-h-450px xs-w-320px xs-h-320px mx-auto position-relative d-flex justify-content-center align-items-center" style="background-image: url('images/demo-restaurant-home-banner-pattern.png')" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 100, "easing": "easeOutQuad" }'>
                             <div>
-                                <p class="text-black alt-font fs-26 xs-fs-17 xs-lh-26 ls-1px text-uppercase mb-25px sm-mb-15px mt-10px">Experience the taste of cashew with &Nuts</p>
+                                <p class="text-black alt-font fs-26 xs-fs-17 xs-lh-26 ls-1px text-uppercase mb-25px sm-mb-15px mt-10px">Savor the Elegance of Pure Cashews with &Nuts</p>
                                 <div class="alt-font fs-110 lh-100 xs-fs-80 xs-lh-70 mb-30px xs-mb-15px fancy-text-style-4"><span class="text-outline text-outline text-outline-width-1px sm-text-outline-width-1px text-outline-color-white text-outline-base-color-background">Great indian</span> <span data-fancy-text='{ "effect": "rotate", "string": ["experience", "adventure"] }' class="text-white ls-minus-2px"></span></div> 
                                 <a href="index.html" class="btn btn-extra-large btn-switch-text btn-black btn-round-edge btn-box-shadow mb-10px">
                                     <span>
@@ -102,6 +104,21 @@
                 </div> 
             </div> 
         </section>
+
+        <!-- <section class="p-0 full-screen md-h-700px bg-dark-gray sm-h-700px ipad-top-space-margin cover-background position-relative" data-parallax-background-ratio="0.8" style="background-image: url('images/landing-page.webp')"></section> -->
+
+        <!-- <section id="stickyImgContainer" >
+            <div  style="background-image: url(https://via.placeholder.com/1920x1080)"></div>
+            <div class="slides magic-cursor view-cursor">
+                <div class="slide" data-bg="https://via.placeholder.com/1920x1080">
+                    <div class="slide-title alt-font fs-230 ls-minus-5px sm-ls-minus-2px xs-ls-0px">Orange</div>
+                    <div class="slide-meta">
+                        <div class="separator-line-1px w-30px bg-white d-inline-block align-middle me-5px"></div>
+                        <span class="d-inline-block text-white align-middle fw-500 fs-14 text-uppercase ls-1px">Branding and identity</span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
         
         <!-- end banner   -->
         <!-- start section -->
@@ -131,7 +148,7 @@
                         <div class="d-inline-block mt-10px xs-mt-0">
                             <a href="index.html" class="btn btn-dark-gray btn-large btn-switch-text btn-round-edge btn-box-shadow me-30px xs-me-15px xs-mb-10px">
                                 <span>
-                                    <span class="btn-double-text" data-text="About us">About &nuts</span> 
+                                    <span class="btn-text" data-text="About us">About &nuts</span> 
                                 </span>
                             </a>
                             <div class="alt-font fs-24 d-inline-block align-middle lh-0 text-dark-gray xs-mb-10px"><i class="feather icon-feather-phone-outgoing me-10px text-base-color"></i><a href="tel:1800222000">1-800-222-000</a></div>
@@ -196,7 +213,7 @@
         </section>
         <!-- end section --> 
        <!-- start section -->
-       <section class="big-section threeD-letter-menu d-flex align-items-center bg-light-gray">
+       <section class="big-section py-0 threeD-letter-menu d-flex align-items-center bg-light-gray">
         <div class="container">
             <div class="row align-items-center position-relative z-index-9">
                 <div class="col-auto menu-item pe-50px position-relative">
@@ -247,19 +264,19 @@
                         </div>
                     </div>
                 </div>
+               
                 <div class="col-auto menu-item pe-50px position-relative">
-                    <div class="fs-14 fw-500 opacity-6 text-dark-gray position-absolute top-15px left-minus-5px">05</div>
+                    <div class="fs-14 fw-500 opacity-6 text-dark-gray position-absolute top-15px left-minus-5px">06</div>
                     <a href="index.html" class="menu-item-text fs-150 md-fs-120 lh-100 text-dark-gray alt-font ls-minus-3px">
                         <span>dessert</span>
                     </a>
                     <div class="hover-reveal d-none d-xl-block">
                         <div class="hover-reveal__inner">
-                            <div class="hover-reveal__img" style="background-image: url(images/background/raw-cashews-nuts-bowl-dark-background.jpg);">
+                            <div class="hover-reveal__img" style="background-image: url(images/background/raw-cashews-nuts-marble-background\ \(1\).jpg);">
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -523,44 +540,33 @@
                         <div class="swiper slider-custom-image swiper-pagination-bottom magic-cursor testimonials-style-03" data-slider-options='{ "loop": true, "pagination": { "el": ".slider-custom-image-pagination", "type": "bullets", "clickable": true }, "keyboard": { "enabled": true, "onlyInViewport": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav", "effect": "fade" } }'>
                             <div class="swiper-wrapper">
                                 <!-- start testimonial item -->
-                                <div class="swiper-slide" data-bullet-thumb="background-image: url(https://via.placeholder.com/210x210)">
+                                <div class="swiper-slide" >
                                     <div class="d-flex flex-column">
                                         <div class="mb-28 align-self-center text-center w-100">
                                             <img src="images/demo-restaurant-home-quotes-icon.jpg" class="mb-30px rounded-circle" alt="">
-                                            <h4 class="alt-font lh-42 text-dark-gray mb-10px">At AndNuts, we believe that food is a reflection of culture, history, and relationships. Each product we offer carries a rich heritage and story behind it, connecting you to our culinary traditions.</h4>
-                                            <span class="fs-20 fw-500 text-base-color d-block">Yeshwanth</span>
+                                            <h4 class="alt-font lh-42 text-dark-gray mb-10px">At &Nuts, our philosophy is woven into the very fabric of our flavors. Each nut, carefully selected and gently roasted, is not just a snack but a testament to the art of fine food. As guardians of this culinary legacy, we pledge to bring more than mere taste to your table—we deliver a narrative of craftsmanship, a saga of quality that has traveled through time and tradition to grace your palate.</h4>
+                                            <span class="fs-20 fw-500 text-base-color d-block">Yashwanth</span>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- end testimonial item -->
                                 <!-- start testimonial item -->
-                                <div class="swiper-slide" data-bullet-thumb="background-image: url(https://via.placeholder.com/148x148)">
+                                <div class="swiper-slide" >
                                     <div class="d-flex flex-column">
                                         <div class="mb-28 align-self-center text-center w-100">
                                             <img src="images/demo-restaurant-home-quotes-icon.jpg" class="mb-30px rounded-circle" alt="">
-                                            <h4 class="alt-font lh-42 text-dark-gray mb-10px">Our commitment as directors is to preserve and honor these traditions, ensuring that every bite you take is not just a meal but an experience steeped in authenticity and significance.</h4>
+                                            <h4 class="alt-font lh-42 text-dark-gray mb-10px">Commitment is our cornerstone, and excellence is our path. At &Nuts, we seal this promise not just on the packs of our offerings but in the very ethos of our brand. For us, delivering excellence is not a business metric; it's a timeless tradition that we cherish and uphold with every product that bears our name.</h4>
                                             <span class="fs-20 fw-500 text-base-color d-block">Kaushik</span>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- end testimonial item -->
                                 <!-- start testimonial item -->
-                                <div class="swiper-slide" data-bullet-thumb="background-image: url(https://via.placeholder.com/200x200)">
+                                <div class="swiper-slide" >
                                     <div class="d-flex flex-column">
                                         <div class="mb-28 align-self-center text-center w-100">
                                             <img src="images/demo-restaurant-home-quotes-icon.jpg" class="mb-30px rounded-circle" alt="">
-                                            <h4 class="alt-font lh-42 text-dark-gray mb-10px">Join us as we celebrate the diversity of flavors and the stories embedded within each product, inviting you to savor the cultural richness and relationships that make AndNuts more than just a brand.</h4>
-                                            <span class="fs-20 fw-500 text-base-color d-block">Vamsi</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end testimonial item --> 
-                                <!-- start testimonial item -->
-                                <div class="swiper-slide" data-bullet-thumb="background-image: url(https://via.placeholder.com/200x200)">
-                                    <div class="d-flex flex-column">
-                                        <div class="mb-28 align-self-center text-center w-100">
-                                            <img src="images/demo-restaurant-home-quotes-icon.jpg" class="mb-30px rounded-circle" alt="">
-                                            <h4 class="alt-font lh-42 text-dark-gray mb-10px">At AndNuts, our journey is more than just about offering quality products; it's about fostering a deeper connection with our customers. As directors, we are committed to ensuring that every interaction with our brand leaves a lasting impression of satisfaction and delight.</h4>
+                                            <h4 class="alt-font lh-42 text-dark-gray mb-10px">We cordially invite you to partake in the rich tapestry of flavors that &Nuts proudly presents. Embark on a culinary exploration with us—a journey that celebrates the essence of taste, the purity of tradition, and the warmth of shared moments over delightful, nutritious indulgences.</h4>
                                             <span class="fs-20 fw-500 text-base-color d-block">Amita</span>
                                         </div>
                                     </div>
